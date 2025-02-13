@@ -14,4 +14,5 @@ To get the refresh_key, follow Dropbox's tutorials here: https://developers.drop
 once you have all of them in your config.ini, all you need to do is put some media you wish to play in the "InfoTV" folder on your Dropbox account, and launch the "infotv" bat file from the root folder
 
 #How it works
+The bat file creates another bat file in your shell:startup to make the program automatially launch when the computer is launched, delete that if you don't want it!
 The program looks for media in your Dropbox folder, then downloads it, and plays it. If something is deleted from the Dropbox folder, it will delete it from your local folder too, once the last playlist it has created has been played.
